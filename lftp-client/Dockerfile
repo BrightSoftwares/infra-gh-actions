@@ -5,6 +5,7 @@ ENV USER=$(INPUT_USER)
 ENV HOST=$(INPUT_HOST)
 ENV PASSWORD=$(INPUT_PASSWORD)
 
-COPY run.sh .
+COPY run.sh /
+RUN chmod +x /run.sh
 
-CMD [ "run.sh" ]
+CMD [ "/run.sh" ]
