@@ -1,0 +1,15 @@
+name: "Install php dependencies"
+
+description: "Install php dependencies using composer"
+
+inputs:
+  appdir:
+    description: The path to the application directory  
+
+outputs:
+  installed_depts:
+    description: Path to the folder of the installed dependencies
+
+runs:
+  using: "docker"
+  image: "Dockerfile"
