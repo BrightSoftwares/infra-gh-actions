@@ -1,0 +1,21 @@
+name: "Push files through FTP"
+
+description: "Copy the files to the server using ftp"
+
+inputs:
+  PUB_FTP_DIR:
+    description: The path to the folder where the inspired posts are located
+  USER:
+    description: The path to the folder where you want to store the result of the convertion
+  HOST:
+    description: Whether to run this for real or just as a simulation
+    default: false
+  PASSWORD:
+    description: In which language do you want to translate the result
+    default: 1
+
+outputs:
+  
+runs:
+  using: "docker"
+  image: "Dockerfile"
