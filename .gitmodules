@@ -1,0 +1,3 @@
+[submodule "iaas_boilerplates"]
+	path = iaas_boilerplates
+	url = https://github.com/fullbright/iaas_boilerplates.git
