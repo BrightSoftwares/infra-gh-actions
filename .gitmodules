@@ -1,3 +1,6 @@
 [submodule "iaas_boilerplates"]
 	path = iaas_boilerplates
 	url = https://github.com/fullbright/iaas_boilerplates.git
+[submodule "actions-self-hosted-runners"]
+	path = actions-self-hosted-runners
+	url = https://github.com/fullbright/actions-self-hosted-runners.git
